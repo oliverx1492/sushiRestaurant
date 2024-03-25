@@ -1,0 +1,114 @@
+[
+    {   
+        "id": 1,
+        "name": "Sake Maki",
+        "kategorie": "Maki",
+        "preis": 3.90,
+        "details": "mit rohem Lachs",
+        "anzahl": 0
+    },
+    {
+        "id": 2,
+        "name": "Tekka Maki",
+        "kategorie": "Maki",
+        "preis": 4,
+        "details": "mit rohem Thunfisch",
+        "anzahl": 0
+    },
+    {
+        "id": 3,
+        "name": "Avocado Maki",
+        "kategorie": "Maki",
+        "preis": 3.50,
+        "details": "mit Avocado",
+        "anzahl": 0
+    }, 
+    {
+        "id": 4,
+        "name": "Kappa Maki",
+        "kategorie": "Maki",
+        "preis": 3.50,
+        "details":"mit Gurke",
+        "anzahl": 0
+    },
+    {
+        "id": 5,
+        "name": "California Maki",
+        "kategorie": "Maki",
+        "preis": 5,
+        "details": "mit Avocado, Mayonese, Gurke und Krebsfleisch",
+        "anzahl": 0
+    },
+    {
+        "id": 6,
+        "name": "Sushi-Set (klein)",
+        "kategorie": "Sushi",
+        "preis": 9.90,
+        "details": "6 Sushi (nach Wahl), 6 Maki (nach Wahl)",
+        "anzahl": 0
+    },
+    {
+        "id": 7,
+        "name": "Sushi-Set (mittel)",
+        "kategorie": "Sushi",
+        "preis": 12.90,
+        "details": "8 Sushi (nach Wahl), 6 Maki (nach Wahl)",
+        "anzahl": 0
+    },
+    {
+        "id": 8,
+        "name": "Sushi-Set (groß)",
+        "kategorie":"Sushi",
+        "preis": 16.90,
+        "details": "10 Sushi (nach Wahl), 8 Maki (nach Wahl)",
+        "anzahl": 0
+    },
+    {
+        "id": 9,
+        "name": "Chirashi Sushi",
+        "kategorie": "Spezialitäten",
+        "preis": 23.90,
+        "details": "Filtetierter Fisch und Gemüse in einer Schüssel mit Reis",
+        "anzahl": 0
+    },
+    {
+        "id": 10,
+        "name": "Sashimi Set (klein)",
+        "kategorie": "Spezialitäten",
+        "preis": 16.90,
+        "details": "7 Shashimi in 3 Sorten",
+        "anzahl": 0
+    },
+    {
+        "id": 11,
+        "name": "Sashimi Set (groß)",
+        "kategorie": "Spezialitäten",
+        "preis": 21.90,
+        "details": "14 Sashimi in 4 Sorten",
+        "anzahl": 0
+    },
+    {
+        "id": 12,
+        "name": "Grüner Tee",
+        "kategorie": "Getränke",
+        "preis": 2.50,
+        "details": "",
+        "anzahl": 0
+    },
+    {
+        "id": 13,
+        "name": "Litschi-Saft",
+        "kategorie": "Getränke",
+        "preis": 3.20,
+        "details": "",
+        "anzahl": 0
+    },
+    {
+        "id": 14,
+        "name": "Japanisches Bier",
+        "kategorie": "Getränke",
+        "preis": 4.50,
+        "details": "",
+        "anzahl": 0
+    }
+]
