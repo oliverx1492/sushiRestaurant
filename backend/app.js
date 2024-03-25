@@ -2,9 +2,9 @@ const express = require("express")
 const PORT = 3000
 const app = express()
 const fs = require("fs")
-const cors = require("cors")
+//const cors = require("cors")
 
-app.use(cors())
+//app.use(cors())
 app.use(express.json());
 app.use((req,res, next) =>  {
     fs.readFile("speisekarte.json", "utf-8", (err,data) => {
