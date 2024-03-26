@@ -4,11 +4,11 @@ import Header from "./Header";
 const About = () => {
 
     return (
-        <div>
+        <div >
             <Header />
-            <div className="p-4 text-center flex justify-center">
+            <div className="p-4 text-center flex justify-center ">
                 <div className="w-2/3">
-                    <p className="text-2xl p-2">Herzlich willkommen bei Sakura Sushi!</p>
+                    <p className="text-4xl p-2">Herzlich willkommen bei Sakura Sushi!</p>
 
                     <p className="text-xl p-2">
                         Wir sind stolz darauf, Ihnen eine authentische japanische Essenserfahrung zu bieten, 

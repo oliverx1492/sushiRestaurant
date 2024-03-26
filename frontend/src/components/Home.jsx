@@ -13,7 +13,7 @@ const Home = () => {
 
     //Image Slider
 
-    const images = [sushi1, sushi2, sushi3]
+    const images = ["https://images.pexels.com/photos/357756/pexels-photo-357756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", "https://images.pexels.com/photos/858508/pexels-photo-858508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", "https://images.pexels.com/photos/3147493/pexels-photo-3147493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"]
 
 
     const slide = () => {
@@ -61,7 +61,7 @@ const Home = () => {
 
                     <div className="flex flex-col md:flex md:flex-row p-6 ">
                         <div className="w-full md:w-2/5  h-min overflow-hidden rounded-xl">
-                            <img className="h-80 object-cover rounded-xl hover:scale-125 transition-all duration-1000" src={sushi4} alt="sushi_iamge" />
+                            <img className="h-80 object-cover rounded-xl hover:scale-125 transition-all duration-1000" src="https://images.pexels.com/photos/271715/pexels-photo-271715.jpeg?auto=compress&cs=tinysrgb&w=600" alt="sushi_iamge" />
                         </div>
                         <div className="w-full md:w-2/5 text-2xl flex items-center m-4">Entdecken Sie die perfekte Balance von Geschmack,
                             Textur und Ästhetik in unseren handgefertigten Sushi-Gerichten.
@@ -78,7 +78,7 @@ const Home = () => {
                             bis hin zu innovativen Nigiri-Variationen - wir bieten Ihnen ein Geschmackserlebnis
                             der besonderen Art</div>
                         <div className="w-full md:w-2/5  h-min overflow-hidden rounded-xl">
-                            <img className=" h-80 object-cover rounded-xl hover:scale-125 transition-all duration-1000" src={sushi5} alt="sushi_iamge" />
+                            <img className=" h-80 object-cover rounded-xl hover:scale-125 transition-all duration-1000" src="https://images.pexels.com/photos/1683545/pexels-photo-1683545.jpeg?auto=compress&cs=tinysrgb&w=600" alt="sushi_iamge" />
                         </div>
                     </div>
 
@@ -86,7 +86,7 @@ const Home = () => {
 
                 <div className="flex flex-col md:flex md:flex-row p-6 ">
                     <div className="w-full md:w-2/5  h-min overflow-hidden rounded-xl">
-                        <img className="h-80 object-cover rounded-xl hover:scale-125 transition-all duration-1000" src={sushi6} alt="sushi_iamge" />
+                        <img className="h-80 object-cover rounded-xl hover:scale-125 transition-all duration-1000" src="https://images.pexels.com/photos/1409050/pexels-photo-1409050.jpeg?auto=compress&cs=tinysrgb&w=600" alt="sushi_iamge" />
                     </div>
                     <div className="w-full md:w-2/5 text-2xl flex items-center m-4">Erleben Sie die Kunst des Sushi-Handwerks.
                         Unsere Meisterköche zaubern aus den feinsten Zutaten kunstvolle

@@ -8,7 +8,7 @@ const Speisekarte = () => {
 
     const filterSpeisekarte = async (item) => {
         try {
-            const response = await fetch("http://localhost:3000/filter", {
+            const response = await fetch("https://sushijson.onrender.com/filter", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
@@ -57,14 +57,14 @@ const Speisekarte = () => {
                 <div className="flex flex-col md:flex md:flex-row h-auto">
 
                     <div className="shadow-md w-full md:w-1/5">
-                        <p onClick={() => filterSpeisekarte("Maki")} className="text-3xl p-5 m-2"> Maki</p>
-                        <p onClick={() => filterSpeisekarte("Sushi")} className="text-3xl p-5 m-2">Sushi</p>
-                        <p onClick={() => filterSpeisekarte("Spezialitäten")} className="text-3xl p-5 m-2">Spezialitäten</p>
-                        <p onClick={() => filterSpeisekarte("Getränke")} className="text-3xl p-5 m-2">Getränke</p>
+                        <p onClick={() => filterSpeisekarte("Maki")} className="text-3xl p-5 m-2 cursor-pointer"> Maki</p>
+                        <p onClick={() => filterSpeisekarte("Sushi")} className="text-3xl p-5 m-2 cursor-pointer">Sushi</p>
+                        <p onClick={() => filterSpeisekarte("Spezialitäten")} className="text-3xl p-5 m-2 cursor-pointer">Spezialitäten</p>
+                        <p onClick={() => filterSpeisekarte("Getränke")} className="text-3xl p-5 m-2 cursor-pointer">Getränke</p>
                     </div>
                     <div className=" w-full md:w-4/5 ">
                         {menu && menu.map((item, index) => (
-                            <div className="">
+                            <div key={index} className="">
                                 <div className="p-4 flex justify-around">
                                     <div className="w-1/2">
                                         <p className="text-4xl">{item.name}</p>
